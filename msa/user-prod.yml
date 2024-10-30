@@ -57,6 +57,6 @@ eureka:
     service-url:
       defaultZone: http://localhost:8761/eureka
 server:
-  port: '12000'
+  port: '11000'
 api:
   gateway: localhost:11000
