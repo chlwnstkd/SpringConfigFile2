@@ -20,7 +20,7 @@ spring:
     password: 1234
     driver-class-name: org.mariadb.jdbc.Driver
     username: root
-    url: jdbc:mariadb://svc.sel4.cloudtype.app:31934/myDB
+    url: jdbc:mariadb://svc.sel4.cloudtype.app:31934/study
 server:
   port: '13000'
 management:
