@@ -16,7 +16,7 @@ management:
   server:
     address: localhost
     port: '11001'
-pring:
+spring:
   jpa:
     generate-ddl: 'false'
     hibernate:
