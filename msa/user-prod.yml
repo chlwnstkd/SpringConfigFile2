@@ -37,10 +37,6 @@ spring:
     url: jdbc:mariadb://svc.sel4.cloudtype.app:31934/myDB
   application:
     name: USER-SERVICE
-  boot:
-    admin:
-      client: # Spring Boot Actuator Admin UI Server
-        url: http://${ADMIN-MANAGER-IP}:${ADMIN-MANAGER-PORT}
 jwt:
   token:
     creator: poly
