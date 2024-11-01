@@ -14,7 +14,7 @@ management:
     shutdown:
       enabled: true
   server:
-    port: '12000'
+    port: '12001'
 spring:
   jpa:
     generate-ddl: 'false'
