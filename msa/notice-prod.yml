@@ -14,7 +14,7 @@ management:
     shutdown:
       enabled: true
   server:
-    port: ${NOTICE-SERVICE-PORT}
+    port: '12000'
 spring:
   jpa:
     generate-ddl: 'false'
