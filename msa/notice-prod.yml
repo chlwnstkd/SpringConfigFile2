@@ -43,4 +43,4 @@ jwt:
 server:
   port: '12000'
 api:
-  gateway: localhost:13000
+  gateway: localhost:11000
