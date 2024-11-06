@@ -36,6 +36,12 @@ spring:
     url: jdbc:mariadb://svc.sel4.cloudtype.app:31934/study
   application:
     name: NOTICE-SERVICE
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/ # Eureka 서버 URL
+    fetch-registry: true
+    register-with-eureka: true
 jwt:
   token:
     access:
