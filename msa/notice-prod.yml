@@ -5,16 +5,16 @@ management:
         include: '*'
   endpoint:
     health:
-      enabled: 'true'
+      enabled: true
       show-details: always
     beans:
-      enabled: 'true'
+      enabled: true
     info:
-      enabled: 'true'
+      enabled: true
     shutdown:
       enabled: true
   server:
-    address: localhost
+    port: '12000'
     port: '12001'
 spring:
   jpa:
@@ -37,21 +37,11 @@ spring:
     url: jdbc:mariadb://svc.sel4.cloudtype.app:31934/study
   application:
     name: NOTICE-SERVICE
-  boot:
-    admin:
-      client: # Spring Boot Actuator Admin UI Server
-        url: http://localhost:15000
 jwt:
   token:
     access:
       name: 'jwtAccessToken'
-eureka:
-  client:
-    fetch-registry: 'true'
-    register-with-eureka: 'true'
-    service-url:
-      defaultZone: http://localhost:8761/eureka
 server:
   port: '12000'
 api:
-  gateway: localhost:13000
+  gateway: localhost:11300
